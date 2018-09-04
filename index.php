@@ -30,6 +30,12 @@
       .flex {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      @media(min-width: 680px) {
+        .flex {
+          flex-wrap: nowrap;
+        }
       }
       .margin-right {
         margin-right: 20px;
@@ -61,6 +67,11 @@
         color: #333333;
         background-color: white;
       }
+      @media(min-width: 680px) {
+        footer {
+          display: none;
+        }
+      }
     </style>
 
   </head>
@@ -71,8 +82,13 @@
     include('components/Intro/Intro.html');
     ?>
 
-    <img src="pre-pro/design/landing.png" />
+    <footer>
+      <div class="logo-wrap" style="margin: 20px 0; text-align: center">
+        <img src="https://i.imgur.com/7vlG3YE.png" alt="CoinCollect logo" />
+      </div>
+    </footer>
 
+    <img src="pre-pro/design/landing.png" hidden />
 
   </body>
 </html>
