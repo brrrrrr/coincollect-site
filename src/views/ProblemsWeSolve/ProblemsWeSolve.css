@@ -1,0 +1,25 @@
+.ProblemsWeSolve {
+  margin-top: 90px;
+  color: #6d6d6d;
+}
+.ProblemsWeSolve h1 {
+  color: #0072bb;
+  font-size: 44px;
+}
+.ProblemsWeSolve h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.ProblemsWeSolve section {
+  flex: calc(50% - 20px);
+  max-width: calc(50% - 20px);
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+.ProblemsWeSolve section:nth-child(odd) {
+  margin-right: 10px;
+}
+.ProblemsWeSolve section:nth-child(even) {
+  margin-left: 10px;
+}

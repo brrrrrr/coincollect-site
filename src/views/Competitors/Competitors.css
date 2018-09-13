@@ -1,0 +1,13 @@
+.Competitors {
+  text-align: center;
+  color: #0072bb;
+  margin-top: 120px;
+}
+
+.Competitors h1 {
+  font-size: 44px;
+}
+
+.Competitors img {
+  margin: 60px 0;
+}

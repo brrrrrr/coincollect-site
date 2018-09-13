@@ -1,10 +1,11 @@
 .Nav {
   font-family: 'Source Sans Pro', sans-serif;
 }
-.Nav nav.main-nav {
-  margin: 15px 0;
+.Nav .main-nav {
+  height: 45px;
+  margin: 28px 10px;
   width: 100%;
-  justify-content: center;
+  justify-content: space-betweenc;
 }
 @media(min-width: 680px) {
   .Nav .main-nav {
@@ -22,20 +23,27 @@
   }
 }
 
-.Nav .main-nav a {
+.Nav .nav-items a {
   font-weight: bold;
   color: #2aa6f6;
-  height: 60px;
-  line-height: 60px;
+  height: 44px;
+  line-height: 44px;
   display: inline-block;
+  margin: 0 32px;
 }
 
-.Nav .main-nav a.button {
-  font-size: 18px;
+.button-wrapper {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Nav .nav-items a.button {
+  font-size: 16px;
   font-weight: bold;
-  height: 45px;
-  line-height: 45px;
-  padding: 0 50px;
+  margin: 0 10px;
+  height: 38px;
+  line-height: 36px;
+  padding: 0 20px;
   color: #fff;
   display: inline-block;
   vertical-align: middle;

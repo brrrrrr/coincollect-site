@@ -18,20 +18,13 @@ a {
   max-width: 100%;
   margin: 0 auto;
 }
-@media(min-width: 680px) {
-  .max-width {
-    padding: 0 20px;
-  }
-}
 .flex {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-@media(min-width: 680px) {
-  .flex {
-    flex-wrap: nowrap;
-  }
+.color-blue {
+  color: #2aa6f6;
 }
 .margin-right {
   margin-right: 20px;
@@ -46,7 +39,15 @@ a.button {
   display: inline-block;
   vertical-align: middle;
   border-radius: 5px;
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+a.button.big {
+  text-align: center;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 24px;
+  min-width: 210px;
 }
 a.button.blue {
   background-color: #2aa6f6;
@@ -62,9 +63,4 @@ a.button.gold {
 a.button.white {
   color: #333333;
   background-color: white;
-}
-@media(min-width: 680px) {
-  footer {
-    display: none;
-  }
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import logo from './assets/coincollect-logo.jpg';
 import './Nav.css';
+
+import Logo from '../../components/Logo/Logo.js';
 
 class Nav extends Component {
   render() {
@@ -10,25 +11,23 @@ class Nav extends Component {
         <nav className="main-nav flex">
 
           <div className="logo-wrap">
-            <img src={logo} alt="CoinCollect logo" height="20" />
+            <a href="/">
+              <Logo />
+            </a>
           </div>
 
           <div className="nav-items flex">
-            <a href="/">
-              Home
+            <a href="/" style={{display: 'none'}}>
+              How it works
             </a>
-            <a href="#">
-              Features
+            <a href="http://ccl.explorer.dexstats.info/" title="Launch the CC explorer" target="_blank" rel="noopener noreferrer">
+              Explorer
             </a>
-            <a href="#">
-              Team
-            </a>
-            <a href="#">
-              Community
-            </a>
-            <a href="http://ccl.explorer.dexstats.info/" title="Launch the CC explorer" target="_blank" className="button blue">
-              Our coin
-            </a>
+            <div className="flex button-wrapper">
+              <a href="/" className="button blue">
+                Our product
+              </a>
+            </div>
           </div>
 
         </nav>
