@@ -6,7 +6,7 @@ class Competitors extends Component {
   render() {
     return (
       <article className="Competitors">
-        <h1>CoinCollect versus competitors</h1>
+        <h1>CoinCollect versus normal exchanges</h1>
         <img src={table} alt="Table with CoinCollect versus competitors" />
       </article>
     );
