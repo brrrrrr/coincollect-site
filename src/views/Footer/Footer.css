@@ -1,0 +1,37 @@
+.Footer {
+  background: #0072bb;
+  color: #fff;
+  text-align: center;
+}
+
+.Footer-top {
+  width: 100%;
+}
+
+.Footer h1 {
+  font-size: 44px;
+  margin: 20px 0;
+}
+
+.Footer h2 {
+  font-weight: normal;
+  margin: 0;
+}
+
+.Footer-info {
+  margin-top: 50px;
+  margin-right: 64px;
+  width: 360px;
+  max-width: 100%;
+  text-align: left;
+}
+
+.Footer-socials {
+  margin-top: 50px;
+  padding: 18px 0;
+  margin-bottom: 140px;
+}
+
+.Footer-icon {
+  margin: 0 28px;
+}

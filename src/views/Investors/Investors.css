@@ -1,0 +1,62 @@
+.Team {
+  margin-top: 120px;
+}
+
+.Team > h1 {
+  text-align: center;
+  font-size: 44px;
+  color: #0072bb;
+}
+
+.Team-members {
+    
+}
+.Team-member {
+  width: 47%;
+  margin: 60px 0;
+}
+.Team-member h1 {
+  text-align: left;
+  font-size: 28px;
+  margin: 4px 0;
+}
+.Team-member-tagline {
+  color: #666666;
+  font-weight: bold;
+}
+.Team-member p {
+  color: #8c8c8c;
+}
+
+.Investors {
+  display: flex;
+  justify-content: space-between;
+}
+.Investors > * {
+  flex: 1;
+}
+.Investors-investor {
+  position: relative;
+  margin-bottom: 140px;
+  color: #777777;
+}
+.Investors-investor h1 {
+  font-size: 44px;
+  color: #0072bb;
+  margin: 4px 0;
+}
+.Investors-investor a {
+  color: #40b1f3;
+  display: inline-block;
+  margin: 10px 0;
+  text-transform: lowercase;
+  font-weight: bold;
+}
+.Investors-investor a::after {
+  content: " >";
+}
+.Investors-investor img {
+  position: absolute;
+  top: -15px;
+  right: 0;
+}
