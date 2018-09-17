@@ -12,7 +12,7 @@ class Nav extends Component {
 
           <div className="logo-wrap">
             <a href="/">
-              <Logo />
+              <Logo color="darkblue" />
             </a>
           </div>
 
@@ -20,11 +20,11 @@ class Nav extends Component {
             <a href="/" style={{display: 'none'}}>
               How it works
             </a>
-            <a href="http://ccl.explorer.dexstats.info/" title="Launch the CC explorer" target="_blank" rel="noopener noreferrer">
+            <a className="darkblue" href="http://ccl.explorer.dexstats.info/" title="Launch the CC explorer" target="_blank" rel="noopener noreferrer">
               Explorer
             </a>
             <div className="flex button-wrapper">
-              <a href="/" className="button blue">
+              <a href="/" className="button darkblue">
                 Our product
               </a>
             </div>

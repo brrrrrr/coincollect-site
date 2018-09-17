@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif !important;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -25,6 +25,9 @@ a {
 }
 .color-blue {
   color: #2aa6f6;
+}
+.color-darkblue {
+  color: #0072bb;
 }
 .margin-right {
   margin-right: 20px;
@@ -51,6 +54,9 @@ a.button.big {
 }
 a.button.blue {
   background-color: #2aa6f6;
+}
+a.button.darkblue {
+  background-color: #0072bb;
 }
 a.button.gold {
   color: #333333;

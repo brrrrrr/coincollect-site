@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './coincollect.png';
+import logo from './coincollect-dark.png';
 // import './Logo.css';
 
 class Logo extends Component {

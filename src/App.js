@@ -34,8 +34,6 @@ class App extends Component {
           </div>
         </footer>
 
-        <img src="pre-pro/design/landing.png" alt="CoinCollect landing design" hidden />
-
       </div>
     );
   }

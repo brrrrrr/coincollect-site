@@ -1,5 +1,33 @@
+.RevenueShare {
+  color: #fff;
+  background-color: #0072bb;
+}
+.RevenueShare h1 {
+  width: 100%;
+  max-width: 780px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #fff;
+  font-size: 30px;
+  line-height: 60px;
+  font-size: 50px;
+  padding: 0 80px;
+}
+.RevenueShare h1 div {
+  color: #a1faf6;
+}
+.RevenueShare p {
+  max-width: 780px;
+  padding: 0 80px;
+}
 .RevenueShare img {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
+  display: block;
+}
+img.RevenueShare-flowchart {
+  width: 920px;
+  margin: 60px auto;
   display: block;
 }

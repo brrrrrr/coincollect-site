@@ -31,6 +31,9 @@
   display: inline-block;
   margin: 0 32px;
 }
+.Nav .nav-items a.darkblue {
+  color: #0072bb;
+}
 
 .button-wrapper {
   flex-direction: column;

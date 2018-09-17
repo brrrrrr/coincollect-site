@@ -4,11 +4,15 @@ import './ProblemsWeSolve.css';
 class ProblemsWeSolve extends Component {
   render() {
     return (
-      <article className="ProblemsWeSolve max-width">
+      <div className="ProblemsWeSolve flex flex-wrap max-width">
 
-        <h1>The problem with crypto today.</h1>
+        <div>
+          <h1>
+            We identified problems that keep from getting aboard crypto
+          </h1>
+        </div>
 
-        <div class="flex flex-wrap">
+        <div className="flex flex-wrap ProblemsWeSolve-problemsList">
 
           <section>
             <h2>A hard time for beginners</h2>
@@ -41,8 +45,7 @@ class ProblemsWeSolve extends Component {
           </section>
 
         </div>
-
-      </article>
+      </div>
     );
   }
 }

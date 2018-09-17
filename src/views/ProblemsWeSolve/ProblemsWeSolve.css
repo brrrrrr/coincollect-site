@@ -1,25 +1,41 @@
 .ProblemsWeSolve {
-  margin-top: 90px;
-  color: #6d6d6d;
+  padding: 80px;
+  color: #0072bb;
+}
+.ProblemsWeSolve > div {
+  flex: 1;
 }
 .ProblemsWeSolve h1 {
-  color: #0072bb;
-  font-size: 44px;
+  font-size: 40px;
+  line-height: 46px;
+  text-align: left;
+  margin-right: 22px;
 }
-.ProblemsWeSolve h2 {
-  font-size: 28px;
-  color: #333;
+.ProblemsWeSolve dl {
+  margin-top: 90px;
 }
-
-.ProblemsWeSolve section {
-  flex: calc(50% - 20px);
-  max-width: calc(50% - 20px);
-  font-size: 20px;
+.ProblemsWeSolve dt {
+  flex: 0 1 50%;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.ProblemsWeSolve dd {
+  flex: 1 0 40%;
   margin-bottom: 80px;
 }
-.ProblemsWeSolve section:nth-child(odd) {
-  margin-right: 10px;
+.ProblemsWeSolve dd > p:first-child {
+  margin-top: 0;
 }
-.ProblemsWeSolve section:nth-child(even) {
-  margin-left: 10px;
+
+.ProblemsWeSolve-problemsList {
+  background: #f9f9f9;
+  color: #767676;
+  padding: 50px;
+  border-radius: 50px;
+  margin-left: 22px;
+  margin-top: -12px;
+}
+.ProblemsWeSolve-problemsList h2 {
+  margin: 0;
+  color: #0072bb;
 }

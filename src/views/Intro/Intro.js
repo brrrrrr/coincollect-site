@@ -13,7 +13,7 @@ class Intro extends Component {
             <div data-description="Page left (desktop)">
 
               <h1 className="Intro-title">
-                Earn rewards with CoinCollect in your portfolio
+                Get CoinCollect, earn rewards
               </h1>
 
               <h2 className="Intro-subTitle">
@@ -21,11 +21,8 @@ class Intro extends Component {
               </h2>
 
               <div className="Intro-cta-wrapper">
-                <a href="/" className="button blue big">
-                  Learn more
-                </a>
-                <a href="http://ccl.explorer.dexstats.info/" title="Launch the CC explorer" target="_blank" rel="noopener noreferrer" className="button white big">
-                  CoinCollect explorer
+                <a href="https://coincollect.us19.list-manage.com/subscribe?u=fea973e7599186bcdb671c103&id=fe1018d331" target="_blank" rel="noopener noreferrer" className="button darkblue big">
+                  Sign up for our newsletter
                 </a>
               </div>
 
@@ -35,7 +32,7 @@ class Intro extends Component {
 
               <div><b>200.000.000</b> max. supply</div>
               <div><b>0.0001</b> transaction fee</div>
-              <div><b className="color-blue">Komodo</b> assetchain</div>
+              <div><b className="color-darkblue">Komodo</b> assetchain</div>
               <div>Secured with Bitcoin's hashrate</div>
 
             </div>
