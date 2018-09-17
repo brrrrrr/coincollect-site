@@ -19,19 +19,32 @@
 }
 
 .Footer-info {
+  text-align: left;
   margin-top: 50px;
-  margin-right: 64px;
   width: 360px;
   max-width: 100%;
   text-align: left;
+  padding: 0 50px;
+}
+@media(min-width: 480px) {
+  .Footer-info {
+    padding: 0;
+    margin-right: 64px;
+  }
 }
 
 .Footer-socials {
   margin-top: 50px;
   padding: 18px 0;
   margin-bottom: 140px;
+  text-align: center;
+  width: 100%;
 }
-
+@media(min-width: 480px) {
+  .Footer-socials {
+    width: auto;
+  }
+}
 .Footer-icon {
   margin: 0 28px;
 }

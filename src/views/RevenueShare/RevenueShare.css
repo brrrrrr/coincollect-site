@@ -28,6 +28,7 @@
 }
 img.RevenueShare-flowchart {
   width: 920px;
+  max-width: 80%;
   margin: 60px auto;
   display: block;
 }

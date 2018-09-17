@@ -9,7 +9,7 @@ class Investors extends Component {
     return (
       <article className="Investors max-width flex flex-wrap">
         <div>
-          <img src={title} />
+          <img className="Investors-title" src={title} />
         </div>
         <div>
           <div className="Investors-investor">

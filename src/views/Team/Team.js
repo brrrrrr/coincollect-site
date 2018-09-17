@@ -6,7 +6,7 @@ class Competitors extends Component {
     return (
       <article className="Team max-width">
         <h1>Meet the team</h1>
-        <div className="Team-members flex">
+        <div className="Team-members flex flex-wrap">
 
           <article className="Team-member">
             <h1>

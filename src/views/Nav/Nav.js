@@ -24,7 +24,7 @@ class Nav extends Component {
               Explorer
             </a>
             <div className="flex button-wrapper">
-              <a href="/" className="button darkblue">
+              <a hidden href="/" className="button darkblue">
                 Our product
               </a>
             </div>
