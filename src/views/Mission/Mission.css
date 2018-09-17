@@ -1,11 +1,25 @@
 .Mission {
-  width: 970px;
+  position: relative;
   max-width: 100%;
   padding: 80px;
   margin: 80px auto 140px auto;
   text-align: center;
   color: #0072bb;
-  background: #f2f2f2;
+  background: #f9f9f9;
+  border-radius: 50px;
+  width: 960px;
+}
+
+.Mission-logo {
+  position: absolute;
+  bottom: -65px;
+  margin: 0 auto;
+  display: block;
+  left: 50%;
+  margin-left: -65px;
+  background: #fff;
+  border-radius: 90px;
+  padding: 20px;
 }
 
 .Mission h1 {

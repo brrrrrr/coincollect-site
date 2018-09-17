@@ -1,13 +1,14 @@
 .ProblemsWeSolve {
   padding: 80px;
   color: #0072bb;
+  width: 100%;
 }
 .ProblemsWeSolve > div {
   flex: 1;
 }
 .ProblemsWeSolve h1 {
-  font-size: 40px;
-  line-height: 46px;
+  font-size: 44px;
+  line-height: 50px;
   text-align: left;
   margin-right: 22px;
 }
@@ -34,6 +35,11 @@
   border-radius: 50px;
   margin-left: 22px;
   margin-top: -12px;
+  width: 650px;
+  max-width: 100%;
+}
+.ProblemsWeSolve-problemsList section {
+  margin-bottom: 120px;
 }
 .ProblemsWeSolve-problemsList h2 {
   margin: 0;

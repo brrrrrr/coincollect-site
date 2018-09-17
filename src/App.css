@@ -2,3 +2,15 @@
   font-size: 18px;
   line-height: 26px;
 }
+
+.App-cta-wrapper {
+  margin: 140px auto;
+  justify-content: center;
+}
+.App-cta-wrapper a {
+  margin-right: 15px;
+  margin-left: 15px;
+  width: 300px;
+  max-width: 100%;
+}
+

@@ -24,6 +24,15 @@ class App extends Component {
 
         <Mission />
 
+        <div className="App-cta-wrapper max-width flex flex-wrap">
+          <a href="https://coincollect.us19.list-manage.com/subscribe?u=fea973e7599186bcdb671c103&id=fe1018d331" target="_blank" rel="noopener noreferrer" className="button darkblue big">
+            Subscribe to our newsletter
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer" className="button darkblue big">
+            Join our Discord channel
+          </a>
+        </div>
+
         <Solution />
 
         <Competitors />
