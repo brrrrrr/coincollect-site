@@ -30,7 +30,7 @@ class ProblemsWeSolve extends Component {
               <i>Sign up to three different sites and each time submitting your ID?</i>
             </p>
             <p>
-              This is a huge barrier that keeps users from entering the crypto world.
+              This is a huge barrier that keeps users from entering crypto.
             </p>
           </section>
 
