@@ -12,28 +12,28 @@ class Solution extends Component {
           </h1>
 
           <dl>
-            <dt><h2>One platform to buy, manage and trade your coins.</h2></dt>
+            <dt><h2>One platform to buy, manage and trade your coins</h2></dt>
             <dd>
               <p>
-                We integrate the best fiat gateways to make sure you can buy crypto with fiat in CoinCollect.
+                We integrate the best fiat gateways to make sure you can buy crypto with dollars or euros in CoinCollect.
               </p>
               <p>
-                We use cutting edge decentralized technology in CoinCollect to ensure that you can easily trade and securely hodl* in your application.
+                We use cutting edge decentralized technology in CoinCollect to ensure that you can easily trade and securely hodl* in CoinCollect.
               </p>
             </dd>
-            <dt><h2>You are the master of your keys.</h2></dt>
+            <dt><h2>Your keys, your coins</h2></dt>
             <dd>
               <p>
-                In CoinCollect we use advanced decentralized technology to make sure you own your keys. Meaning you are, at any time, in full control.
+                In Coincollect we use advanced decentralized exchange technology allowing us to make sure you own your keys at all times. This means you are in control.
               </p>
               <p>
-                We eliminate every doubt you had about the vulnerability of first generation exchanges.
+                Eliminating the problem you had with the first generation (1.0) exchanges and their vulnerabilities.
               </p>
             </dd>
-            <dt><h2>A smooth user experience.</h2></dt>
+            <dt><h2>Smooth user experience</h2></dt>
             <dd>
               <p>
-                CoinCollect is the most smooth experience there is in the crypto world. Every screen navigates intuitively and is crystal clear.
+                CoinCollect is the most smooth experience there is in crypto. Every screen navigates intuitively. Everything is clear as daylight.
               </p>
               <p>
                 No more frustrating moments in which you could just smash your device through a wall.
