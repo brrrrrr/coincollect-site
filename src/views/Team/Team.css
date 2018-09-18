@@ -9,16 +9,36 @@
 }
 
 .Team-members {
-    
+  margin-bottom: 60px;
+}
+@media(min-width: 480px) {
+  .Team-members {
+    margin-bottom: 0;
+  }
 }
 .Team-member {
   width: 47%;
-  margin: 60px 0;
+  min-width: 300px;
+  text-align: center;
+  margin: 15px autohttps://coincollect.cc/;
+}
+@media(min-width: 480px) {
+  .Team-member {
+    margin: 60px 0;
+    min-width: 0;
+    text-align: left;
+  }
 }
 .Team-member h1 {
-  text-align: left;
+  text-align: center;
   font-size: 28px;
+  line-height: 38px;
   margin: 4px 0;
+}
+@media(min-width: 480px) {
+  .Team-member h1 {
+    text-align: left;
+  }
 }
 .Team-member-tagline {
   color: #666666;
@@ -26,4 +46,6 @@
 }
 .Team-member p {
   color: #8c8c8c;
+  max-width: 80vw;
+  margin: 20px auto;
 }
