@@ -23,16 +23,27 @@
   text-align: left;
   margin-right: 22px;
 }
+.Solution h2 {
+  line-height: 36px;
+}
 
 .Solution dl {
   margin-top: 90px;
   color: #fff;
-  padding: 50px;
+  padding: 30px 30px;
   border-radius: 50px;
-  margin-left: 22px;
+  margin-left: 0;
   margin-top: -12px;
-  width: 650px;
   max-width: 100%;
+  width: 650px;
+  min-width: 50%;
+}
+@media(min-width: 480px) {
+  .Solution dl {
+    padding: 50px 50px;
+    margin-left: 22px;
+    margin-top: -12px;
+  }
 }
 .Solution dt {
   margin: 0;

@@ -1,9 +1,9 @@
 .Intro {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 25px 25px;
+  padding: 25px 0;
 }
 
-@media(min-width: 680px) {
+@media(min-width: 960px) {
   .Intro {
     padding: 128px 0;
   }
@@ -16,18 +16,26 @@
   padding: 0;
   font-weight: bold;
   color: #333;
-  font-size: 30px;
-  line-height: 60px;
+  font-size: 40px;
+  line-height: 46px;
 }
-
-.Intro-subTitle {
-  font-size: 30px;
-  font-weight: normal;
-  margin: 10px 0;
-}
-@media(min-width: 680px) {
+@media(min-width: 960px) {
   .Intro-title {
     font-size: 50px;
+  }
+}
+
+
+.Intro-subTitle {
+  font-weight: normal;
+  margin: 10px 0;
+  font-size: 24px;
+  line-height: 38px;
+}
+@media(min-width: 960px) {
+  .Intro-subTitle {
+    font-size: 30px;
+    line-height: 36px;
   }
 }
 
@@ -36,13 +44,19 @@
 }
 
 .Intro-cta-wrapper {
-  margin-top: 52px;
+  margin-top: 80px;
+  display: none;
 }
 .Intro-cta-wrapper > a:first-child {
   margin-right: 20px;
 }
+@media(min-width: 960px) {
+  .Intro-cta-wrapper {
+    display: block;
+  }
+}
 
-@media(min-width: 680px) {
+@media(min-width: 960px) {
   .Intro-available-on {
     font-size: 20px;
     margin-top: 80px;
@@ -50,8 +64,14 @@
 }
 
 .Intro-key-points {
-  text-align: right;
-  margin-top: -8px;
+  margin-top: 20px;
+  text-align: left;
+}
+@media(min-width: 960px) {
+  .Intro-key-points {
+    text-align: right;
+    margin-top: -8px;
+  }
 }
 .Intro-key-points > div {
   margin: 16px 0;

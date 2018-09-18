@@ -5,9 +5,11 @@ import './Competitors.css';
 class Competitors extends Component {
   render() {
     return (
-      <article className="Competitors">
+      <article className="Competitors max-width">
         <h1>CoinCollect versus normal exchanges</h1>
-        <img src={table} alt="Table with CoinCollect versus competitors" />
+        <a href={table}>
+          <img src={table} alt="Table with CoinCollect versus competitors" />
+        </a>
       </article>
     );
   }

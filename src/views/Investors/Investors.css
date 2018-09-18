@@ -15,9 +15,17 @@
   position: relative;
   margin-bottom: 140px;
   color: #777777;
+  text-align: center;
+  margin-top: 60px;
+}
+@media(min-width: 480px) {
+  .Investors-investor {
+    text-align: left;
+    margin-top: 0;
+  }
 }
 .Investors-title {
-  min-width: 320px;
+  min-width: 300px;
 }
 .Investors-investor h1 {
   font-size: 44px;
@@ -36,6 +44,7 @@
 }
 .Investors-investor img {
   display: block;
+  margin: 40px auto;
 }
 @media (min-width: 480px) {
   .Investors-investor img {

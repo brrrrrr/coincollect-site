@@ -4,12 +4,13 @@
 }
 
 .App-cta-wrapper {
-  margin: 140px auto;
+  margin: 125px auto;
   justify-content: center;
 }
 .App-cta-wrapper a {
   margin-right: 15px;
   margin-left: 15px;
+  margin-bottom: 15px;
   width: 300px;
   max-width: 100%;
 }
