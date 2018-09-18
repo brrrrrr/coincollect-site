@@ -8,7 +8,7 @@ class Solution extends Component {
         <div className="max-width flex flex-wrap"> 
 
           <h1>
-            Our solution to lowering the entry barrier of crypto.
+            Our solution
           </h1>
 
           <dl>
