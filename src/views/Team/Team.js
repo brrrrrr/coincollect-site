@@ -30,7 +30,7 @@ class Competitors extends Component {
 
           <article className="Team-member">
             <h1>Max Theyse</h1>
-            <div className="Team-member-tagline">General Project Lead & Product Owner</div>
+            <div className="Team-member-tagline">Design Lead</div>
             <p>
               Max found the other team members by his passion for Komodo and BarterDEX. He has an inborn need to optimise the user experience for crypto, especially for BarterDEX based apps.
             </p>
