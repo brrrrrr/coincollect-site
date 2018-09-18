@@ -18,7 +18,7 @@ class Solution extends Component {
                 We integrate the best fiat gateways to make sure you can buy crypto with fiat in CoinCollect.
               </p>
               <p>
-                We use cutting edge decentralized technology in CoinCollect to ensure that you can easily trade and securely hodl* in your application.
+                We use cutting edge decentralized technology in CoinCollect to ensure that you can easily trade and securely <a href="https://en.wikipedia.org/wiki/Hodl">hodl</a> in your application.
               </p>
             </dd>
             <dt><h2>You are the master of your keys.</h2></dt>
