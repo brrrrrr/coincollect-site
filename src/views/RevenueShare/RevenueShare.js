@@ -11,7 +11,7 @@ class RevenueShare extends Component {
         <img src={background} alt="" />
         <div className="max-width">
           <h1>
-            We care so we share
+            We care
             <div>all our revenue</div>
           </h1>
           <p>
