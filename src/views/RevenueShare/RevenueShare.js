@@ -11,7 +11,7 @@ class RevenueShare extends Component {
         <img src={background} alt="" />
         <div className="max-width">
           <h1>
-            We care so we share
+            We care
           </h1>
           <p>
             100% of all revenue flows directly to all holders of CoinCollect (CC). Different revenue streams make sure the coin will generate profitable rewards for holders.
