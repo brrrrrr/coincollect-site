@@ -8,7 +8,7 @@ class ProblemsWeSolve extends Component {
 
         <div>
           <h1>
-            We identified problems that keep from getting aboard crypto
+            Problems that keep people from crypto
           </h1>
         </div>
 
