@@ -13,7 +13,7 @@ class Intro extends Component {
             <div data-description="Page left (desktop)">
 
               <h1 className="Intro-title">
-                Get CoinCollect, earn rewards
+                Get CC, earn rewards
               </h1>
 
               <h2 className="Intro-subTitle">
