@@ -8,7 +8,7 @@ class Solution extends Component {
         <div className="max-width flex flex-wrap"> 
 
           <h1>
-            Our solution to lowering the entry barrier of crypto.
+            Our solution
           </h1>
 
           <dl>
@@ -18,7 +18,7 @@ class Solution extends Component {
                 We integrate the best fiat gateways to make sure you can buy crypto with dollars or euros in CoinCollect.
               </p>
               <p>
-                We use cutting edge decentralized technology in CoinCollect to ensure that you can easily trade and securely hodl* in CoinCollect.
+                We use cutting edge decentralized technology in CoinCollect to ensure that you can easily trade and securely <a href="https://en.wikipedia.org/wiki/Hodl" target="_blank">hodl</a> in your application.
               </p>
             </dd>
             <dt><h2>Your keys, your coins</h2></dt>
