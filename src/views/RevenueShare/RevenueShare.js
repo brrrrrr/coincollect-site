@@ -14,7 +14,7 @@ class RevenueShare extends Component {
             We care so we share
           </h1>
           <p>
-            100% of all revenue flows directly to all holders of CoinCollect (CC). Different revenue streams make sure the coin will generate profitable rewards for holders.
+            100% of all revenue flows directly to all holders of CoinCollect (CC). Different revenue streams make sure the use of our app will generate profitable rewards for holders.
           </p>
         </div>
         <img className="RevenueShare-flowchart" src={flowchart} alt="Revenue flowchart" />
