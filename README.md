@@ -2,6 +2,8 @@
 
 The coincollect site, https://coincollect.cc
 
+toevoeging barv
+
 ____
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
